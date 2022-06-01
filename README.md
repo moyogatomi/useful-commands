@@ -31,3 +31,13 @@ Exec container in pod
 ```bash
 kubectl exec -ti ipengine-net-benchmark-488656591-gjrpc -c ipengine-net-benchmark-iperf-server /bin/bash
 ```
+
+
+
+# Command line
+
+folder sizes
+
+```bash
+du -h --max-depth=1 | sort -hr
+```
